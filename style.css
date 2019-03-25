@@ -62,23 +62,25 @@ color:#d6dbda;
 	font-size: 1.1rem;
 }
 .col-12 {
-	background:#a8b5b4;
+	background:#d9dddd;
 	padding: 1rem;
 }
 .col-12 h1 {
-	color: #fff000;
+	color: #f7cf40;
 	text-shadow: .1rem .1rem .8rem black;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	letter-spacing: .1rem;
 }
 .col-12 h3 {
-	color: #527a0d;
+	color: #527a00;
 	letter-spacing: .1rem;
+}
+.col-12 h2{
+	color: #ff0000;
 }
 .col-12 h4 {
 	color: black;
-}
 
 
 
