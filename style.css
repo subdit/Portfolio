@@ -59,6 +59,9 @@ color:#50596;
 	padding-bottom: 1.6rem;
 	letter-spacing: .1rem;
 }
+.caption h2 {
+	color: red;
+}
 .btn-lg { /* Bootstrap button comes rounded with default */
 	border-width: medium;
 	border-radius: 0;
@@ -66,8 +69,8 @@ color:#50596;
 	font-size: 1.1rem;
 }
 .col-12 {
-	background: #b5b7b7;
-	padding: 1rem;
+	background: #f4ebeb;
+	padding-top: 1rem;
 }
 .col-12 h1 {
 	color: gold;
