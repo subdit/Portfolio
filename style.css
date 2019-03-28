@@ -3,7 +3,8 @@
 body {
 overflow-x: hidden;
 font-family: 'Lato', sans-serif;
-color:#d6dbda;
+color:#50596;
+
 
 }
 /* Navigation */
@@ -12,7 +13,7 @@ color:#d6dbda;
 	font-weight: 700;
 	font-size: .9rem; /* 1 rem = 16px  */
 	letter-spacing: .1rem; /* spacing out letter */
-	background :rgba(0, 0, 0, 0.6)!important; /*to over write bg-dark navbar class*/
+	background :rgba(0.5, 0.5, 0.5, 0.5)/* !important; to over write bg-dark navbar class*/
 }
 .navbar-brand img{ /* to resize logo img */
 	height: 2.5rem;
@@ -21,7 +22,7 @@ color:#d6dbda;
 	padding-right: .7rem; /* to space out the link(li) */
 }
 .navbar-dark .navbar-nav .nav-link{
-	color: #c61b4f;
+	color: gold;
 	padding-top: .8rem;
 }
 .navbar-dark .navbar-nav .nav-link.action
@@ -31,7 +32,7 @@ color:#d6dbda;
 
 /* Start Landing Page */
 .home-inner {
-	background-image: url(img/abstract-art-backdrop.jpg);
+	background-image: url(img/background-business-computer.jpg);
 }
 .caption {
 	width: 100%;
@@ -41,13 +42,16 @@ color:#d6dbda;
 	z-index: 1;
 	color: gold;
 	text-transform: uppercase;
+
 }
 .caption h1 {
-	font-size: 3.4rem;
+
 	font-weight: 700;
 	letter-spacing: .3rem;
 	text-shadow: .1rem .1rem .8rem black;
 	padding-bottom: 1rem;
+  transition-duration: 350ms;
+
 }
 .caption h3 {
 	font-size: 2rem;
@@ -62,11 +66,11 @@ color:#d6dbda;
 	font-size: 1.1rem;
 }
 .col-12 {
-	background:#d9dddd;
+	background: #b5b7b7;
 	padding: 1rem;
 }
 .col-12 h1 {
-	color: #f7cf40;
+	color: gold;
 	text-shadow: .1rem .1rem .8rem black;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -80,7 +84,7 @@ color:#d6dbda;
 	color: #ff0000;
 }
 .col-12 h4 {
-	color: black;
+	color: #2c2cea;
 
 
 
