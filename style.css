@@ -7,6 +7,14 @@ color:#50596;
 
 
 }
+/* --- Nav scrolling Offset ---*/
+.offset:before {
+	display: block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+
 /* Navigation */
 .navbar{
 	text-transform: uppercase;
@@ -90,35 +98,125 @@ color:#50596;
 	display: inline-block;
 }
 .col-12 h1 {
-	color: #8c601e;
-	text-shadow: .1rem .1rem .8rem red;
+	color: red;
+	text-shadow: .1rem .1rem .8rem black;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	letter-spacing: .1rem;
 }
 .col-12 h3 {
 	color: #527a00;
-	letter-spacing: .1rem;
+	letter-spacing: .1rem
 }
 .col-12 h2{
 	color: #ff0000;
 }
 .col-12 h4 {
-	color: black;
-
-
-
-
-/* --- Nav scrolling Offset ---*/
-.offset:before {
-	height: 4rem;
-	margin-top: -4rem;
-	content: "";
-	display: block;
+	color: #082859;
 }
 
+/* --- About --*/
+.narrow {
+	width: 100%;
+	margin: 1.5rem auto;
+	padding-top: 2rem;
+}
+.narrow h1{
+	font-size: 2.4rem;
+}
+.btn-secondary {
+	border-width: medium;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	padding: .6rem 1.2rem;
+	margin: 1rem;
+	color:  #0b46bc;
+	background-color: #aabdbf;
+	border-color: red;
+}
+.btn-secondary: hover {
+	background-color: #aabdbf;
+	border-color: blue;
+}
 
+/* -- Start A Jumbotroon  Projects-- */
+ .jumbotron {
+	 margin-bottom: 0;
+	 padding: 2rem 0 0.5rem;
+	 border-radius: 0;
+	}
+	h2.heading {
+		font-size: 1.9rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: 1.9rem;
+	}
+.heading-underline {
+	width: 3rem;
+	height: .2rem;
+	background-color: black;
+	margin: 0 auto 2rem;
+}
+.projects svg.svg-inline--fa {
+	color: #1ebba3;
+}
+.projects h3 {
+	font-size: 1.5rem;
+	padding-bottom: .4rem;
+	letter-spacing: .1rem;
+}
+.projects p {
+	font-size: 1.1rem;
+	letter-spacing: .08rem
+}
+/* -- Start of Skills Section --*/
+.fixed {
+	background-image: url(img/apple-computer-cup.jpg);
+	z-index: -1;
+}
+#skills {
+	display: inline;
+}
+.dark {
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	padding: 7rem 2rem;
+}
+.fixed-background h3 {
+	margin-bottom: 2rem;
+}
+.fixed-background p {
+	margin-top: 1.5rem;
+}
 
+.col-md-4 {
+	display: inline-block;
+}
+#contact {
+	background-color: #b1bbbc;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
+#contact h2{
+	color: red;
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 1.9rem;
+}
+#contact p{
+	color: black;
+	font-size: 1.2rem;
+}
+footer {
+	text-align: center;
+	font-size: 1.5rem;
+	padding-top: 1.9rem;
+	padding-bottom: 1.5rem;
+	background-color: #212735;
+	color: gold;
+}
 
 
 /* --- Extra Bootstrap Column Padding --*/
