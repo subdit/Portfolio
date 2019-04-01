@@ -22,7 +22,7 @@
 
 			<!-- Navigation -->
 			<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-				<a class="navbar-brand" href="home"><img src="img/ancient-antique-clock.jpg"></a>
+				<a class="navbar-brand" href="#home"><img src="img/ancient-antique-clock.jpg"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 					data-target="#navbarResponsive">
 						<span class="navbar-toggler-icon"></span>
@@ -65,7 +65,7 @@
 					<h1>Kasidit Bualoeng</h1>
 					<h2>Full Stack Web Developer</h2>
 					<a class="btn btn-outline-light btn-lg" href="#about">Get Started</a><br>
-					<h3>My web site is comming soon</h3>
+					<!--<h3>My web site is comming soon</h3> -->
 				</div>
 			<!-- End Landing Page Section -->
 			</div>
@@ -89,27 +89,33 @@
 		<div id="projects" class="offset">
 		<!-- Start Jumbotron -->
 			<div class="jumbotron">
-				<div class="narrow text-center">
-					<div class="col-12">
+				<div class="narow text-center">
+					<div class="col-12 text-center">
 						<h2 class="heading">PROJECTS</h2>
 						<div class="heading-underline"></div>
 					</div>
 
 					<div class="row text-center">
-						<div class="col-md-6"> <!-- You can add 4 projects divide from 12 md -->
+						<div class="col-md-6 projects"> <!-- You can add 4 projects divide from 12 md -->
 							<div class="projects">
 							 <i class="fas fa-skiing"></i>
-							 <h3>Family Activity</h3>
+							 <a href="https://subdit.github.io/family-activity-tracker-client/" target="_blank"><h3>Family Activity</h3></a>
+							 <a href="https://github.com/subdit/family-activity-tracker-client/" target="_blank"><h5><em>GitHub-Page</h5></em></a>
+
 							 <p>This full stack application build by Ruby on Rails, Heroku, JavaScript, HTML5, CSS3, Bootstrap
 							 </p>
 						  </div>
 					</div> <!-- End Row -->
 
 
-					<div class="col-md-6"> <!-- You can add 4 projects divide from 12 md -->
+					<div class="col-md-6 projects"> <!-- You can add 4 projects divide from 12 md -->
 						<div class="projects">
 						 <i class="fas fa-briefcase"></i>
-						 <h3>E-Commerce Group Project</h3>
+
+						 <a href="https://fundefined-statesmen.github.io/nozama-client/" target="_blank"><h3>E-Commerce Group Project</h3></a>
+						 <a href="https://github.com/fundefined-statesmen/nozama-client" target="_blank"><h5><em>GitHub-Page</h3></em></a>
+
+
 						 <p>This full stack application build by MongoDB, Mongoose, JavaScript, HTML5, CSS3, Bootstrap, Heroku, Express API.
 						 </p>
 						</div>
@@ -117,7 +123,9 @@
 				<div class="col-md-6"> <!-- You can add 4 projects divide from 12 md -->
 					<div class="projects">
 						<i class="fas fa-utensils"></i>
-					 <h3>Create Your Own Recipe</h3>
+					 <a href="https://subdit.github.io/recipe-client/" target="_blank"><h3>Create Your Own Recipe</h3></a>
+					 <a href="https://github.com/subdit/recipe-client" target="_blank"><h5><em>GitHub-Page</h5></em></a>
+
 					 <p>This full stack application build by Ruby on Rails, PostgreSQL, Heroku, JavaScript, HTML5, CSS3, Bootstrap
 					 </p>
 					</div>
@@ -125,8 +133,9 @@
 			<div class="col-md-6"> <!-- You can add 4 projects divide from 12 md -->
 				<div class="projects">
 					<i class="fas fa-paint-roller"></i>
-				 <h3>AcNow Web Page</h3>
-				 <p>This responsive web design build with JavaScript, HTML5, CSS3
+					<a href="https://github.com/subdit/tic-tac-toe" target="_blank"><h3> Game Board</h3></a>
+
+				 <p>This game  board application using JavaScript, HTML5, CSS3, AJAX, jQuery, Browser template
 				 </p>
 				</div>
 		</div> <!-- End Row -->
@@ -144,55 +153,53 @@
 						<h2 class="heading">SKILLS</h2>
 						<div class="heading-underline"></div>
 					</div>
-					<div class="col-md-4">
-						<h3>HTML 5</h3>
-						<div class="projects">
+
+					<div class="col-md-4 skills">
+						<h3>HTML 5, CSS3, Bootstap4</h3>
+						<div class="skills">
 						<i class="fas fa-code fa-3x"></i>
 						</div>
-						<p class="lead">Built with the lastest HTML 5</p>
+						<p class="lead">Built with the lastest frontend technology</p>
 					</div>
-					<div class="col-md-4">
-						<h3>CSS 3</h3>
-						<div class="projects">
+					<div class="col-md-4 skills">
+						<h3>JavaScript, Ruby, Ruby on Rails</h3>
+						<div class="skills">
 						<i class="fab fa-css3 fa-3x"></i>
 						</div>
-						<p class="lead">Built with the lastest, CSS 3</p>
+						<p class="lead">Built with passion</p>
 					</div>
 
-					<div class="col-md-4">
-						<div class="projects">
-							<h3>BOOTSTRAP 4</h3>
+					<div class="col-md-4 skills">
+						<div class="skills">
+							<h3>MongoDB, PostgreSQL, AWS</h3>
 						<i class="fas fa-bold fa-3x"></i>
 						</div>
-						<p class="lead">Built with the lastest, BOOTSTRAP 4</p>
+						<p class="lead">Built with responsive</p>
 					</div>
-<!-- Stop Skills Set
-					<div class="col-md-4">
+<!-- Skills Section
+					<div class="col-md-2 skills">
 						<div class="skills">
 						<i class="fab fa-sketch"></i>
 						<h4>Ruby, Ruby on Rails</h4>
 						</div>
 						<p class="lead">Built with the lasted, Ruby on Rails</p>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-2 skills">
 						<div class="skills">
 							<i class="fab fa-js"></i>
 						<h4>JavaScript, React</h4>
 						</div>
 						<p class="lead">Built with the lasted, JavaScript</p>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-2 skills">
 						<div class="skills">
 							<i class="fas fa-database"></i>
 						<h4>MongoDB, PostgreSQL, AWS</h4>
 						</div>
 						<p class="lead">Built with the lasted, MongoDB, Mongoose, Express API</p>
 					</div>
-
-					 End Skill Set  --->
-
-
-				</div> <!-- End Row Dark -->
+---->
+	 		</div> <!-- End Row Dark -->
 					<div class="fixed-wrap">
 							<div class="fixed">
 							</div>
@@ -201,27 +208,38 @@
 			</div> <!--- End Skills = Resources Section -->
 
 		<!--- Start Contact Section -->
-		<div id="contact" class="offset">
-			<footer>
-				<div class="row justify-content-center">
-					<div class="col-md-5 text-center">
-						<img src="img/ancient-antique-clock.jpg"><br>
+		<section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Contact Me!</h2>
+						<div class="heading-underline"></div>
+            <h4 class="mb-5"> Ready to start a new employee? That's great! <br>
+							Give me a call or send me an email
+						</h4>
+        </div>
+        <div class="col-md-12  col-sm-12 text-center" data-scrollreveal="enter bottom and move 100px, wait 0.8s">
 
-						<strong>Build with Passion</strong><br>
-						<strong>Contact Info</strong>
-						<p>(508)215-6832<br>subdit@gmail.com</p>
-						<a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
-						<a href="" target="_blank"><i class="fab fa-linkedin-"></i></a>
-						<a href="" target="_blank"><i class="fab fa-"></i></a>
+											<p class="lead"> <em>2302 Davenport Ave<br>
+											Canton, MA. 02021<br/>
+											Call: 508-215-6832<br/>
+											Email: <a href="mailto:subdit@gmail.com?subject=I love your site!">subdit@gmail.com</a><br/>
+										</em></p>
+											<h3 class="social presence"</h3>
+											<a href="https://twitter.com/dit2518" target="_blank"><i class="fab fa-twitter-square fa-3x color-twitter"></i></a>
 
-					</div>
-				</div>
-				<hr class="socket text-center">
-				@Copyright:Kasidit Bualoeng
+											<a href="https://plus.google.com/u/0/115146117787251913282" target="_blank"><i class="fab fa-google-plus-square fa-3x color-google-plus"></i></a>
+											<a href=" https://www.linkedin.com/in/kasidit-bualoeng" target="_blank"><i class="fab fa-linkedin fa-3x color-linkedin"></i></a>
+										</div>
+									</div>
+			</div>
+    </section>
 
-			</footer>
-		</div>
 		<!--- End Contact Section -->
+		<footer>
+			<em>CopyRight@Kasidit-Bualoeng-2019</em>
+		</footer>
+
 
 
 
