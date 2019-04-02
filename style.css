@@ -91,11 +91,11 @@ color:#50596;
 }
 
 .col-12 {
-	padding-top: 2rem;
-	padding-bottom: 1rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 	border-radius: .1rem;
 	margin: .1rem;
-	display: inline-block;
+	display: 100%;
 }
 .col-12 h1 {
 	color: red;
@@ -114,6 +114,7 @@ color:#50596;
 .col-12 h4 {
 	color: #082859;
 }
+
 
 /* --- About --*/
 .narrow {
@@ -184,14 +185,20 @@ color:#50596;
 	padding: 7rem 2rem;
 }
 .fixed-background h3 {
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 }
 .fixed-background p {
 	margin-top: 1.5rem;
 }
 
-.col-md-4 {
+.col-md-5 {
 	display: inline-block;
+}
+.col-md-5 h4{
+	color: #086b87;
+}
+.col-md-5 p {
+	color: black;
 }
 #contact {
 	background-color: #b1bbbc;
