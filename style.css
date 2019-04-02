@@ -98,8 +98,8 @@ color:#50596;
 	display: 100%;
 }
 .col-12 h1 {
-	color: red;
-	text-shadow: .1rem .1rem .8rem black;
+	color: green;
+	text-shadow: .1rem .1rem .8rem red;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	letter-spacing: .1rem;
@@ -109,10 +109,10 @@ color:#50596;
 	letter-spacing: .1rem
 }
 .col-12 h2{
-	color: #ff0000;
+	color: green;
 }
 .col-12 h4 {
-	color: #082859;
+	color: #1f7a9b;
 }
 
 
@@ -132,9 +132,9 @@ color:#50596;
 	font-size: 1.2rem;
 	padding: .6rem 1.2rem;
 	margin: 1rem;
-	color:  #0b46bc;
+	color:  green;
 	background-color: #aabdbf;
-	border-color: red;
+	border-color: #1f7a9b;
 }
 .btn-secondary: hover {
 	background-color: #aabdbf;
@@ -173,18 +173,21 @@ color:#50596;
 }
 /* -- Start of Skills Section --*/
 #fixed {
-	background-image: url(img/fixed/apple-devices-business.jpg);
+	background-image: url(img/apple-devices-business.jpg);
 	z-index: -1;
 }
 .row-dark {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.5);
 	padding: 7rem 2rem;
 	text-align: center;
-	z-index: 1000!import;
+	z-index: 1000!important;
 	color: #1092d3;
 }
 #skills {
 	display: inline;
+}
+#skills h2 {
+	color: red;
 }
 
 .fixed-background h3 {
@@ -201,7 +204,7 @@ color:#50596;
 	color: white;
 }
 .col-md-5 p {
-	color: #8dc9d3;
+	color: #e9ecff;
 }
 #contact {
 	background-color: #b1bbbc;
@@ -219,12 +222,15 @@ color:#50596;
 	color: black;
 	font-size: 1.2rem;
 }
+.mb-5 {
+	color: #0e79a3;
+}
 footer {
 	text-align: center;
 	font-size: 1.5rem;
 	padding-top: 1.9rem;
 	padding-bottom: 1.5rem;
-	background-color: #212735;
+	background-color: #38424c;
 	color: gold;
 }
 
