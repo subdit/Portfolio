@@ -119,7 +119,7 @@ color:#50596;
 /* --- About --*/
 .narrow {
 	width: 100%;
-	margin: 1.5rem auto;
+	margin: 2rem auto;
 	padding-top: 2rem;
 }
 .narrow h1{
@@ -154,7 +154,7 @@ color:#50596;
 		margin-bottom: 1.9rem;
 	}
 .heading-underline {
-	width: 3rem;
+	width: 5rem;
 	height: .2rem;
 	background-color: black;
 	margin: 0 auto 2rem;
@@ -168,8 +168,15 @@ color:#50596;
 	letter-spacing: .1rem;
 }
 .projects p {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	letter-spacing: .08rem
+	color: black;
+}
+.projects a {
+	color: #085ba0;
+}
+.projects a:hover {
+	color: white!important;
 }
 /* -- Start of Skills Section --*/
 #fixed {
@@ -185,11 +192,12 @@ color:#50596;
 }
 #skills {
 	display: inline;
+	margin-bottom: 2rem;
 }
 #skills h2 {
 	color: red;
+	margin-top: 2rem;
 }
-
 .fixed-background h3 {
 	margin-bottom: 3rem;
 }
@@ -202,9 +210,11 @@ color:#50596;
 }
 .col-md-5 h4{
 	color: white;
+	margin-top: 1rem;
 }
 .col-md-5 p {
 	color: #e9ecff;
+	margin-bottom: 1rem;
 }
 #contact {
 	background-color: #b1bbbc;
@@ -217,13 +227,23 @@ color:#50596;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 1.9rem;
+	margin-top: 2rem;
 }
 #contact p{
 	color: black;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+#contact a {
+	color: #0e79a3;
+	height: 1rem;
+	margin-top: 2rem;
+}
+#contact a:hover {
+	color: white!important;
 }
 .mb-5 {
-	color: #0e79a3;
+	color: #075477;
 }
 footer {
 	text-align: center;
@@ -233,6 +253,101 @@ footer {
 	background-color: #38424c;
 	color: gold;
 }
+
+/* ----- Media Queries -----*/
+
+@media (max-width:768px) {
+
+	.nav-link {
+		display: inline;
+	}
+	.caption h1 {
+		font-size: 1.6rem;
+		letter-spacing: .1rem;
+		padding-bottom: 1rem;
+	  transition-duration: 350ms;
+
+	}
+	.caption h2 {
+		font-size: 1.3rem;
+		padding-bottom: 1rem;
+		color: gold;
+	}
+	.btn-lg { /* Bootstrap button comes rounded with default */
+		padding: .5rem 1rem;
+		font-size: .9rem;
+	}
+	.btn-secondary {
+		border-width: medium;
+		text-transform: uppercase;
+		font-size: .9rem;
+		padding: .6rem 1.2rem;
+		margin: 1rem;
+		color:  green;
+		background-color: #aabdbf;
+		border-color: #1f7a9b;
+	}
+	.narrow h1{
+		font-size: 1.6rem;
+	}
+	.col-12 h1 {
+		color: green;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	.col-12 h3 {
+		font-size: 1.2rem;
+		color: #527a00;
+
+	}
+	.col-12 h2{
+		color: green;
+		font-size: 1.3rem;
+	}
+	.col-12 h4 {
+		font-size: 1.1rem;
+		color: #1f7a9b;
+	}
+	.projects h3 {
+		font-size: 1.2rem;
+	}
+	.projects p {
+		font-size: 1rem;
+		letter-spacing: .08rem
+		color: black;
+	}
+	.col-md-5 h4{
+		font-size: 1.1rem;
+		color: white;
+		margin-top: 1rem;
+	}
+	#contact h2{
+		color: red;
+		font-size: 1.3rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-top: 2rem;
+	}
+	#contact h4 {
+		font-size: 1.1rem;
+	}
+	#contact p{
+		color: black;
+		font-size: 1.1rem;
+		margin-bottom: 1rem;
+	}
+	#contact a {
+		color: #0e79a3;
+	}
+	.heading-underline {
+		width: 2rem;
+		height: .1rem;
+		background-color: black;
+		margin: 0 auto 2rem;
+	}
+
+}
+
 
 
 /* --- Extra Bootstrap Column Padding --*/
