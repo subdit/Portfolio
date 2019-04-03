@@ -256,18 +256,24 @@ footer {
 
 /* ----- Media Queries -----*/
 
-@media (max-width:768px) {
-
-	.nav-link {
-		display: inline;
+@media (max-width:767px) {
+	.navbar-toggler a {
+		display: inline-block;
+	}
+	.caption {
+		width: 100%;
+		max-width: 100%;
+		position: absolute;
+		top: 50%; /*To move text up to the page */
+		z-index: 1;
+		color: gold;
 	}
 	.caption h1 {
 		font-size: 1.6rem;
-		letter-spacing: .1rem;
 		padding-bottom: 1rem;
 	  transition-duration: 350ms;
 
-	}
+}
 	.caption h2 {
 		font-size: 1.3rem;
 		padding-bottom: 1rem;
@@ -313,7 +319,6 @@ footer {
 	}
 	.projects p {
 		font-size: 1rem;
-		letter-spacing: .08rem
 		color: black;
 	}
 	.col-md-5 h4{
@@ -344,6 +349,11 @@ footer {
 		height: .1rem;
 		background-color: black;
 		margin: 0 auto 2rem;
+	}
+	footer {
+		font-size: .9rem;
+		background-color: #38424c;
+		color: gold;
 	}
 
 }
