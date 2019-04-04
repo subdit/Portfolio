@@ -24,7 +24,7 @@ color:#50596;
 	background :rgba(0.5, 0.5, 0.5, 0.5)/* !important; to over write bg-dark navbar class*/
 }
 .navbar-brand img{ /* to resize logo img */
-	height: 2.5rem;
+	height: 3rem;
 }
 .navbar-nav li{
 	padding-right: .7rem; /* to space out the link(li) */
@@ -236,7 +236,7 @@ color:#50596;
 }
 #contact a {
 	color: #0e79a3;
-	height: 1rem;
+	height: .9rem;
 	margin-top: 2rem;
 }
 #contact a:hover {
@@ -257,9 +257,7 @@ footer {
 /* ----- Media Queries -----*/
 
 @media (max-width:767px) {
-	.navbar-toggler a {
-		display: inline-block;
-	}
+
 	.caption {
 		width: 100%;
 		max-width: 100%;
