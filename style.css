@@ -13,6 +13,7 @@ color:#50596;
 	content: "";
 	height: 4rem;
 	margin-top: -4rem;
+	margin: 1rem;
 }
 
 /* Navigation */
@@ -91,7 +92,7 @@ color:#50596;
 }
 
 .col-12 {
-	padding-top: 3rem;
+  padding-top: 3rem;
 	padding-bottom: 3rem;
 	border-radius: .1rem;
 	margin: .1rem;
@@ -106,7 +107,7 @@ color:#50596;
 }
 .col-12 h3 {
 	color: #527a00;
-	letter-spacing: .1rem
+	letter-spacing: .1rem;
 }
 .col-12 h2{
 	color: green;
@@ -121,6 +122,7 @@ color:#50596;
 	width: 100%;
 	margin: 2rem auto;
 	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 .narrow h1{
 	font-size: 2.4rem;
@@ -141,18 +143,18 @@ color:#50596;
 	border-color: blue;
 }
 
-/* -- Start A Jumbotroon  Projects-- */
+/* -- Start A Jumbotron  Projects-- */
  .jumbotron {
 	 margin-bottom: 0;
-	 padding: 2rem 0 0.5rem;
+	 padding: 2rem 0 3.5rem;
 	 border-radius: 0;
 	}
-	h2.heading {
-		font-size: 1.9rem;
-		font-weight: 700;
-		text-transform: uppercase;
-		margin-bottom: 1.9rem;
-	}
+		h2.heading {
+			font-size: 1.9rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			margin-bottom: 1.9rem;
+    	}
 .heading-underline {
 	width: 5rem;
 	height: .2rem;
@@ -164,13 +166,16 @@ color:#50596;
 }
 .projects h3 {
 	font-size: 1.5rem;
+	margin-top: .5rem;
 	padding-bottom: .4rem;
+	text-transform: uppercase;
 	letter-spacing: .1rem;
 }
 .projects p {
 	font-size: 1.2rem;
-	letter-spacing: .08rem
+	letter-spacing: .03rem;
 	color: black;
+	margin-bottom: 2rem;
 }
 .projects a {
 	color: #085ba0;
@@ -179,9 +184,18 @@ color:#50596;
 	color: white!important;
 }
 /* -- Start of Skills Section --*/
+#skills {
+	display: inline;
+	margin-bottom: 2rem;
+}
+#skills h2 {
+	color: red;
+	margin-top: 1rem; /* -Add margin-top in h2 (SKILLS)   - */
+
+}
 #fixed {
 	background-image: url(img/apple-devices-business.jpg);
-	z-index: -1;
+	z-index: -1; /* z-index: -1 to make sure that the image stay underneath the content */
 }
 .row-dark {
 	background-color: rgba(0, 0, 0, 0.5);
@@ -190,21 +204,12 @@ color:#50596;
 	z-index: 1000!important;
 	color: #1092d3;
 }
-#skills {
-	display: inline;
-	margin-bottom: 2rem;
-}
-#skills h2 {
-	color: red;
-	margin-top: 2rem;
-}
 .fixed-background h3 {
 	margin-bottom: 3rem;
 }
 .fixed-background p {
-	margin-top: 1.5rem;
+	margin-top: 1rem;
 }
-
 .col-md-5 {
 	display: inline-block;
 }
@@ -256,7 +261,7 @@ footer {
 
 /* ----- Media Queries -----*/
 
-@media (max-width:767px) {
+@media (max-width:768px) {
 
 	.caption {
 		width: 100%;
