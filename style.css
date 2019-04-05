@@ -13,7 +13,7 @@ color:#50596;
 	content: "";
 	height: 4rem;
 	margin-top: -4rem;
-	margin: 1rem;
+
 }
 
 /* Navigation */
@@ -41,7 +41,7 @@ color:#50596;
 
 /* Start Landing Page */
 .home-inner {
-	background-image: url(img/background-business-computer.jpg);
+	background-image: url(img/background-black-clouds.jpg);
 }
 .caption {
 	width: 100%;
@@ -97,6 +97,7 @@ color:#50596;
 	border-radius: .1rem;
 	margin: .1rem;
 	display: 100%;
+	margin-bottom: 0;
 }
 .col-12 h1 {
 	color: green;
@@ -203,6 +204,7 @@ color:#50596;
 	text-align: center;
 	z-index: 1000!important;
 	color: #1092d3;
+	margin-top: auto;
 }
 .fixed-background h3 {
 	margin-bottom: 3rem;
@@ -252,7 +254,7 @@ color:#50596;
 }
 footer {
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	padding-top: 1.9rem;
 	padding-bottom: 1.5rem;
 	background-color: #38424c;
@@ -261,7 +263,7 @@ footer {
 
 /* ----- Media Queries -----*/
 
-@media (max-width:768px) {
+@media (max-width:767px) {
 
 	.caption {
 		width: 100%;
