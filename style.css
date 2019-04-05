@@ -41,7 +41,7 @@ color:#50596;
 
 /* Start Landing Page */
 .home-inner {
-	background-image: url(img/background-black-clouds.jpg);
+	background-image: url(img/background-books-bookshelves.jpg);
 }
 .caption {
 	width: 100%;
@@ -101,7 +101,7 @@ color:#50596;
 }
 .col-12 h1 {
 	color: green;
-	text-shadow: .1rem .1rem .8rem red;
+	text-shadow: .1rem .1rem .8rem yellow;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	letter-spacing: .1rem;
