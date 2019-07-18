@@ -3,7 +3,7 @@
 body {
 overflow-x: hidden;
 font-family: 'Lato', sans-serif;
-color:#50596;
+color:#dce7e8;
 
 
 }
@@ -31,7 +31,7 @@ color:#50596;
 	padding-right: .7rem; /* to space out the link(li) */
 }
 .navbar-dark .navbar-nav .nav-link{
-	color: gold;
+	color: green;
 	padding-top: .8rem;
 }
 .navbar-dark .navbar-nav .nav-link.action
@@ -41,7 +41,7 @@ color:#50596;
 
 /* Start Landing Page */
 .home-inner {
-	background-image: url(img/background-books-bookshelves.jpg);
+	background-image: url(img/coffee-cup-cup-of-coffee.jpg);
 	display: center;
 }
 .caption {
@@ -50,31 +50,33 @@ color:#50596;
 	position: absolute;
 	top: 40%; /*To move text up to the page */
 	z-index: 1;
-	color: gold;
+	color: darkred;
 	text-transform: uppercase;
 
 }
 .caption h1 {
 	font-weight: 700;
+	font-size: 2.8rem;
 	letter-spacing: .3rem;
-	text-shadow: .1rem .1rem .8rem blue;
+	text-shadow: .1rem .1rem .8rem darkblue;
 	padding-bottom: 1rem;
   transition-duration: 350ms;
 
+
 }
 .caption h3 {
-	font-size: 2rem;
-	text-shadow: .1rem .1rem .5rem black;
+	font-size: 2.2rem;
+	text-shadow: .1rem .1rem .5rem red;
 	padding-bottom: 1.6rem;
 	letter-spacing: .1rem;
 	color: red;
 }
 .caption h2 {
 	font-size: 2rem;
-	text-shadow: .1rem .1rem .5rem blue;
+	text-shadow: .1rem .1rem .5rem red;
 	padding-bottom: 1.6rem;
 	letter-spacing: .1rem;
-	color: gold;
+	color: #39363f;
 }
 .btn-lg { /* Bootstrap button comes rounded with default */
 	border-width: medium;
@@ -99,9 +101,16 @@ color:#50596;
 	margin: .1rem;
 	display: 100%;
 	margin-bottom: 0;
+
+}
+#about{
+	background-color: #dce7e8;
+}
+.jumbotron{
+	background-color: inherit;
 }
 .col-12 h1 {
-	color: #0b8bed;
+	color: #0c1d72;
 	text-shadow: .1rem .1rem .8rem red;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -112,14 +121,15 @@ color:#50596;
 	letter-spacing: .1rem;
 }
 .col-12 h2{
-	color: green;
+	color: Red;
 }
 .col-12 h4 {
-	color: #1f7a9b;
+	color: #2b2b47;
 }
 
 
 /* --- About --*/
+
 .narrow {
 	width: 100%;
 	margin: 2rem auto;
@@ -128,6 +138,7 @@ color:#50596;
 }
 .narrow h1{
 	font-size: 2.4rem;
+	font-weight: 600;
 }
 .btn-secondary {
 	border-width: medium;
@@ -136,7 +147,7 @@ color:#50596;
 	font-size: 1.2rem;
 	padding: .6rem 1.2rem;
 	margin: 1rem;
-	color:  green;
+	color:  red;
 	background-color: #aabdbf;
 	border-color: #1f7a9b;
 }
@@ -183,7 +194,7 @@ color:#50596;
 	color: #085ba0;
 }
 .projects a:hover {
-	color: white!important;
+	color: gray!important;
 }
 /* -- Start of Skills Section --*/
 #skills {
@@ -259,7 +270,7 @@ footer {
 	padding-top: 1.9rem;
 	padding-bottom: 1.5rem;
 	background-color: #38424c;
-	color: gold;
+	color: green;
 }
 
 /* ----- Media Queries -----*/
@@ -295,7 +306,7 @@ footer {
 		font-size: .9rem;
 		padding: .6rem 1.2rem;
 		margin: 1rem;
-		color:  green;
+		color:  red;
 		background-color: #aabdbf;
 		border-color: #1f7a9b;
 	}
@@ -303,7 +314,7 @@ footer {
 		font-size: 1.6rem;
 	}
 	.col-12 h1 {
-		color: green;
+		color: red;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 	}
@@ -313,7 +324,7 @@ footer {
 
 	}
 	.col-12 h2{
-		color: green;
+		color: red;
 		font-size: 1.3rem;
 	}
 	.col-12 h4 {
